@@ -20,6 +20,6 @@ Mysql
 
 ### Team Members
 Steven Zhu (stevnzhu@gmail.com)
-Colin Surez 
+Colin Suarez (cgsuarez1221@gmail.com)
 Mark Santos (mksantos6677@gmail.com)
 Kevin Brad (kbrand93@gmail.com)
