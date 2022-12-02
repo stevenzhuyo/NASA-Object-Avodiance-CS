@@ -1,0 +1,107 @@
+    1  sudo apt update
+    2  sudo apt install --assume-yes wget tasksel
+    3  wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
+    4  sudo apt-get install --assume-yes ./chrome-remote-desktop_current_amd64.deb
+    5  sudo tasksel install ubuntu-desktop
+    6  DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0ARtbsJrEOzK3vEVgDDUD4TAdEn8nQPpclo-zFduVZuUkZajn3E3o4NfEyCAcU8gs8qt_YQ" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)
+    7  cd Desktop/
+    8  git clone https://github.com/Arjun-NA/KPConv_for_DALES.git
+    9  gsutil cp gs://dalesdata/ * /Desktop
+   10  gsutil cp -r gs://dalesdata/ * /Desktop
+   11  gsutil cp -r gs://dalesdata/ * ~/Desktop
+   12  cd ..
+   13  curl https://raw.githubusercontent.com/GoogleCloudPlatform/compute-gpu-installation/main/linux/install_gpu_driver.py --output install_gpu_driver.py
+   14  sudo python3 install_gpu_driver.py
+   15  sudo nvidia-smi
+   16  history
+   17  sudo apt-get update
+   18  wget https://repo.continuum.io/archive/Anaconda3-5.3.1-Linux-x86_64.sh
+   19  bash Anaconda3-5.3.1-Linux-x86_64.sh
+   20  cd Desktop/
+   21  cd KPConv_fory_DALES/
+   22  grep -r gpu *.py
+   23  grep -r "gpu" *.py
+   24  ls
+   25  man grep
+   26  grep -r "gpu" *
+   27  more training_DALES.py 
+   28  cd ..
+   29  cd ~/Desktop/
+   30  git clone https://github.com/Arjun-NA/KPConv_for_DALES.git
+   31  grep -r "gpu" *.py
+   32  grep -r "gpu" *
+   33  sudo nvidia-smi
+   34  cd ~/
+   35  ls
+   36  cd ..
+   37  ls
+   38  cd /
+   39  ls
+   40  ls -r | grep cudnn
+   41  ls -r
+   42  ls -r *
+   43  ls -r * | grep cudnn
+   44  sudo ls -r * | grep cudnn
+   45  sudo ls -R * | grep cudnn
+   46  sudo ls -R *
+   47  sudo ls -R * | grep cudnn
+   48  ls
+   49  cd run
+   50  ls
+   51  cd user/1001
+   52  ls
+   53  cd gvfs
+   54  ls
+   55  ls -lat
+   56  cd ~/Desktop
+   57  whereis cudnn.h
+   58  CUDNN_H_PATH=$(whereis cudnn.h)
+   59  nvcc -V
+   60  conda create --name KPConv --file envlist.txt
+   61  history
+   62  source ~/.bashrc
+   63  cd Kp
+   64  cd KPConv_for_DALES/
+   65  conda create --name KPConv --file envlist.txt
+   66  conda activate KPConv
+   67  cd tf_custom_ops/
+   68  TF_LIB=$(python3 -c 'import tensorflow as tf;print(tf.sysconfig.get_lib())' 2>/dev/null)
+   69  echo $TF_LIB
+   70  cd $TF_LIB
+   71  ls
+   72  sudo cp libtensorflow_framework.so.1 libtensorflow_framework.so
+   73  cd ~/Desktop/KPConv_for_DALES/tf_custom_ops/
+   74  export LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+${LD_LIBRARY_PATH}:}${TF_LIB}
+****   sudo apt-get install g++
+   75  sh ./compile_op.sh
+   76  cd ..
+   77  cd cpp_wrappers/
+   78  sh ./compile_wrappers.sh
+   79  sudo apt-get --assume-yes install tmux
+   80  cd ..
+   81  pip install -r pipenvlist.txt
+   82  history
+   83  history > setup_steven.txt
+   84  more setup_steven.txt 
+   85  cd /opt/google
+   86  ls
+   87  sudo git clone https://github.com/GoogleCloudPlatform/compute-gpu-monitoring.git
+   88  cd /opt/google/compute-gpu-monitoring/linux
+   89  sudo python3 -m venv venv
+   90  conda activate base
+   91  apt-get install python3-venv
+   92  sudo apt-get install python3-venv
+   93  conda create --name agent
+   94  conda activate agent
+   95  sudo python3 -m venv venv
+   96  sudo venv/bin/pip install wheel
+   97  sudo pip install wheel
+   98  pip install wheel
+   99  pip install -Ur requirements.txt
+  100  sudo cp /opt/google/compute-gpu-monitoring/linux/systemd/google_gpu_monitoring_agent_venv.service /lib/systemd/system
+  101  sudo systemctl daemon-reload
+  102  sudo systemctl --no-reload --now enable /lib/systemd/system/google_gpu_monitoring_agent_venv.service
+  103  cd ~/Desktop/
+  104  history
+  105  sudo nvidia-smi
+  106  history > full_setup.txt

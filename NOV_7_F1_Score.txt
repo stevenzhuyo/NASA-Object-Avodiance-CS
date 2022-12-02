@@ -1,0 +1,46 @@
+All files good
+
+ Loading....  test/Log_2022-10-31_07-07-52/predictions/bin_5175_54395.ply
+micro F1: 	 0.9750703730171291
+macro F1: 	 0.7879315210305409
+
+ Loading....  test/Log_2022-10-31_07-07-52/predictions/bin_5120_54445.ply
+micro F1: 	 0.9740822428081362
+macro F1: 	 0.7977583591568868
+
+ Loading....  test/Log_2022-10-31_07-07-52/predictions/bin_5100_54490.ply
+micro F1: 	 0.9762850847165242
+macro F1: 	 0.7818194795733358
+
+ Loading....  test/Log_2022-10-31_07-07-52/predictions/bin_5140_54390.ply
+micro F1: 	 0.9692293191219244
+macro F1: 	 0.6830035968379674
+
+ Loading....  test/Log_2022-10-31_07-07-52/predictions/bin_5080_54400.ply
+micro F1: 	 0.9759388447205142
+macro F1: 	 0.7379100707728934
+
+ Loading....  test/Log_2022-10-31_07-07-52/predictions/bin_5100_54440.ply
+micro F1: 	 0.9482783049862185
+macro F1: 	 0.7504369086808172
+
+ Loading....  test/Log_2022-10-31_07-07-52/predictions/bin_5150_54325.ply
+micro F1: 	 0.9781952990856345
+macro F1: 	 0.724865483979283
+
+ Loading....  test/Log_2022-10-31_07-07-52/predictions/bin_5155_54335.ply
+micro F1: 	 0.9766174513137279
+macro F1: 	 0.5516287268491681
+
+ Loading....  test/Log_2022-10-31_07-07-52/predictions/bin_5135_54430.ply
+micro F1: 	 0.9792120015002518
+macro F1: 	 0.782405270714918
+
+ Loading....  test/Log_2022-10-31_07-07-52/predictions/bin_5080_54470.ply
+micro F1: 	 0.975084247970795
+macro F1: 	 0.7760797548636571
+
+ Loading....  test/Log_2022-10-31_07-07-52/predictions/bin_5135_54435.ply
+micro F1: 	 0.9789185222481707
+macro F1: 	 0.7906305658318942
+ Final Avg micro :  0.9733556083171842 |  Avg  macro :  0.742224521662851
